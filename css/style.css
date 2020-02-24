@@ -1,9 +1,7 @@
 body {
-    font-family: "Montserrat";
+  font-family: 'Roboto', sans-serif ;
     margin: 0;
     padding: 0;
-  }
-  * {
   }
   img {
     width: 100%;
@@ -19,51 +17,16 @@ body {
     color: rgba(0, 0, 0, 0.459);
     padding: 20px 0;
   }
-  header {
-    padding: 20px 30px 150px 20px;
-  }
-  .logo {
-    float: left;
-  }
-  .logo img {
-    width: 65px;
-  
-    border-radius: 34px;
-    box-shadow: 0px 0px 26px #02020285;
-  }
-  nav {
-    display: table;
-    float: right;
-  }
-  nav li {
-    list-style: none;
-    float: left;
-  }
-  nav ul a {
-    text-decoration: none;
-    background: #ec4c7c;
-    border: 1px solid #ec4c7c;
-    padding: 15px 30px;
-    color: #fff;
-    margin-left: 5px;
-    border-radius: 3px;
-    transition: all 0.2s;
-  }
-  nav ul a:hover {
-    background: #fff;
-    color: #ec4c7c;
-    border: 1px solid #ec4c7c;
-  }
   section {
-    padding: 100px;
+    padding: 100px 30px;
   }
   .half-width {
     width: 45%;
     float: left;
   }
   .profile-section {
-    background-image: url(/image//background-image/header-bg.png);
-    background-position: left;
+    background-image: url(../images/header-bg.png);
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
@@ -85,6 +48,7 @@ body {
     border-radius: 5px;
     text-transform: uppercase;
     border: 1px solid #ec4c7c;
+    transition: 0.3s all ease-in-out;
   }
   .button-link:hover {
     background: #fff;
@@ -93,7 +57,7 @@ body {
   }
   
   .biography-section {
-    background-image: url(/image//background-image/biography-bg.png);
+    background-image: url(../images/biography-bg.png);
     background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
@@ -119,7 +83,7 @@ body {
   
   .client-review {
     text-align: center;
-    background-image: url(/image//background-image/footer-bg.png);
+    background-image: url(../images/footer-bg.png);
     background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
